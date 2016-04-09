@@ -15,11 +15,11 @@ Outputs a html menu structure to a target `<ul>` and sets up links to the corres
 ## Usage
 
 ```javascript
-import MenuGenerator from 'menu-generator'
+import generateMenu from 'menu-generator'
 
 // - headline is the class selector
 // - target is the id of the <ul>
-let Menu = new MenuGenerator('headline', 'test-target');
+generateMenu('headline', 'test-target');
 ```
 
 ### Develop
