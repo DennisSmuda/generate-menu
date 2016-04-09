@@ -1,0 +1,36 @@
+{
+  "name": "generate-menu",
+  "version": "0.0.1",
+  "description": "Generate a typical menu structure based on headlines within a single page",
+  "bin": {
+    "generate-menu": "./bin/main.js"
+  },
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "src",
+    ".babelrc",
+    "webpack.config.js"
+  ],
+  "directories": {
+    "lib": "src/lib"
+  },
+  "scripts": {
+    "start": "webpack -w"
+  },
+  "author": "dennis smuda",
+  "license": "ISC",
+  "dependencies": {
+    "scroll-to-element": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-amd": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.2",
+    "webpack": "^1.12.14"
+  }
+}
