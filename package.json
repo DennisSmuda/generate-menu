@@ -1,6 +1,6 @@
 {
   "name": "generate-menu",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Generate a typical menu structure based on headlines within a single page",
   "bin": {
     "generate-menu": "./bin/main.js"
@@ -32,5 +32,9 @@
     "mocha": "^2.4.5",
     "rimraf": "^2.5.2",
     "webpack": "^1.12.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DennisSmuda/generate-menu.git"
   }
 }
